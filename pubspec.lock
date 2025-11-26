@@ -2,6 +2,24 @@
 # See https://dart.dev/tools/pub/glossary#lockfile
 packages:
   async:
+    dependencies:
+      flutter:
+        sdk: flutter
+
+      google_generative_ai: ^0.1.0
+      provider: ^6.1.1
+
+      # ✅ Pacotes para SQLite (Banco de Dados)
+      sqflite: ^2.3.2
+      path_provider: ^2.1.2 # Necessário para encontrar o caminho do banco de dados no dispositivo
+
+    flutter:
+      uses-material-design: true
+      assets:
+        # ✅ Defina o diretório para os avatares dos heróis
+        - assets/
+
+    # ... (o resto do seu pubspec.yaml)
     dependency: transitive
     description:
       name: async

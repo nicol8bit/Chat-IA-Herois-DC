@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'SelecaoHeroiPage.dart';
-import 'ChatPage.dart';
+import '../views/SelecaoHeroiPage.dart';
+import '../views/ChatPage.dart';
 
 class MeuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Chat IA DC',
       theme: ThemeData(
         primarySwatch: Colors.blue,

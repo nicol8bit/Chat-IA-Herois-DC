@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Heroi.dart';
+import '../models/Heroi.dart';
 
 // Dados estáticos
 final List<Heroi> heroisDC = [

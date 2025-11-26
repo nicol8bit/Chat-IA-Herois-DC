@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Heroi.dart';
-import 'Mensagem.dart';
+import '../models/Heroi.dart';
+import '../models/Mensagem.dart';
 
 class ChatPage extends StatefulWidget {
   @override
